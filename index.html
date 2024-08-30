@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Скачать файлы</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #00ffc3;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ff007f;
+            text-shadow: 0 0 10px #ff007f, 0 0 20px #ff007f;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        a {
+            color: #00ffc3;
+            text-decoration: none;
+            font-size: 1.2em;
+            border: 2px solid #00ffc3;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #00ffc3;
+            color: #121212;
+            text-shadow: none;
+            box-shadow: 0 0 10px #00ffc3, 0 0 20px #00ffc3;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Симулятор кассира</h1>
+    <p>Вы можете скачать мою програму в разных видах по следующим кнопкам:</p>
+    <ul>
+        <li><a href="Установить кассира.exe" download>Скачать (.exe)</a></li>
+        <li><a href="Распакуй куда тебе удобно.zip" download>Скачать (.zip)</a></li>
+    </ul>
+</body>
+</html>
